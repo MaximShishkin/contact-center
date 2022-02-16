@@ -1,4 +1,4 @@
-package ru.shishkin.kontactCentr;
+package ru.shishkin.contactCenter;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
