@@ -669,13 +669,6 @@ public class Application extends JFrame {
                 dif3 = rt1 - rb1 - mw1 * sigma1 - mi1 * mu1;
                 dif4 = rt2 - rb2 - mw2 * sigma2 - mi2 * mu2;
 
-                //  System.out.println("dif="+dif);
-                //  System.out.println("dif1="+dif1);
-                // System.out.println("dif2="+dif2);
-                // System.out.println("dif3="+dif3);
-                //System.out.println("dif4="+dif4);
-                //System.out.println("delta="+delta);
-
                 System.out.println("���� ������������� �������� =" + pct);
                 System.out.println("������� ����� ������������ � �������=" + twt);
                 //System.out.println(""+mwt);
@@ -683,7 +676,6 @@ public class Application extends JFrame {
                 System.out.println("���� ���������� ��������, ���������� �� ����������" + pc);
                 System.out.println("C������ ���������� ������� ���������� = " + mi);
                 System.out.println("������� ����� ���������� � �������, ��������� " + tw);
-                // System.out.println("������� ���������� ������� ���� �������� � ���������� = "+mw);
 
                 System.out.println("���� ������������� ��������, 1= " + pc1);
                 System.out.println("������� ����� ���������� � �������, 1 =" + tw1);
