@@ -1,4 +1,4 @@
-package ru.shishkin.contactCenter;
+package ru.shishkin.maxim.contactCenter;
 
 public class StartCalculation {
     public StartCalculation() {

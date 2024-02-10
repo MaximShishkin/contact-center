@@ -9,8 +9,5 @@
         <module name="ContactCenter" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ContactCenter" target="15" />
-    </bytecodeTargetLevel>
   </component>
 </project>

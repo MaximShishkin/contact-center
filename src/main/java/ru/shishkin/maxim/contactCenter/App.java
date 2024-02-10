@@ -1,4 +1,4 @@
-package ru.shishkin.contactCenter;
+package ru.shishkin.maxim.contactCenter;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
@@ -10,7 +10,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Application extends JFrame {
+public class App extends JFrame {
     private JPanel contentPane;
     private JTextField textField;
     private JTextField textField_1;
@@ -37,7 +37,7 @@ public class Application extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    Application frame = new Application();
+                    App frame = new App();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -46,7 +46,7 @@ public class Application extends JFrame {
         });
     }
 
-    public Application() {
+    public App() {
         setTitle("\u0420\u0430\u0441\u0447\u0435\u0442 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u043E\u0432 \u0434\u043B\u044F \u0443\u0441\u043B\u043E\u0436\u043D\u0435\u043D\u043D\u043E\u0439 \u0441\u0438\u0441\u0442\u0435\u043C\u044B");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 528, 516);
